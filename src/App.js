@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import UserInfo from './components/UserInfo'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <>
-    
+      <UserInfo/>
     </>
   );
 }
