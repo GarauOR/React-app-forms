@@ -1,10 +1,10 @@
-import UserInfo from './components/UserInfo'
+import Router from './router/Router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <>
-      <UserInfo/>
+      <Router/>
     </>
   );
 }
